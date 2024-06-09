@@ -17,12 +17,6 @@ This is a console-based application that allows users to interact with a game re
 - **Edit Game**: Admins can edit details of existing games.
 - **Delete Game**: Admins can delete games from the system.
 
-## Dependencies
-
-This application depends on the following custom header files:
-- `window.h`
-- `rating.h`
-
 ## Code Structure
 
 ### Main Components
@@ -54,7 +48,7 @@ This application depends on the following custom header files:
 
 ## How to Run
 
-1. **Compile the Program**: Ensure all necessary header files (`window.h`, `rating.h`) are included and compile the main file.
+1. **Compile the Program**: Ensure all necessary header files are included and compile the main file.
 2. **Run the Program**: Execute the compiled binary.
 
 ## Future Enhancements
