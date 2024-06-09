@@ -359,7 +359,7 @@ void clientMenu()
 					Window reviewWindow(0, 0, 60, 9, "Вiдгук (" + game->getName() + ")");
 					reviewWindow.Center();
 					reviewWindow.SetBackgroundColor(Blue).SetBorderColor(LightBlue).SetSelectionColor(Green).SetTextColor(White);
-					reviewWindow.AddInput(0, 0, 58, 1, "Рейтинг");
+					reviewWindow.AddInput(0, 0, 1, 1, "Рейтинг", 1);
 					reviewWindow.AddInput(0, 1, 58, 3, "Вiдгук");
 					reviewWindow.AddButton(0, 4, 28, 1, 1, "Додати");
 					reviewWindow.AddButton(30, 4, 28, 1, 0, "Назад");
@@ -372,7 +372,7 @@ void clientMenu()
 
 						if (callback == 1)
 						{
-							if (!stoi(reviewWindow.GetElementInfo(0)))
+							if (!isdigit(reviewWindow.GetElementInfo(0)[0]))
 							{
 								Message message("Рейтинг має бути цiлим числом!");
 								message.DrawElementsLoop();
