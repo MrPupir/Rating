@@ -68,4 +68,4 @@ This is a console-based application that allows users to interact with a game re
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
